@@ -1,0 +1,11 @@
+[data-md-color-scheme="installforge-light"] {
+  --md-primary-fg-color:        #2E73A0;
+  --md-accent-fg-color:         #FCAD3F;
+  --md-primary-fg-color--dark:  #2E73A0;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #2E73A0;
+  --md-accent-fg-color:         #FCAD3F;
+  --md-primary-fg-color--dark:  #2E73A0;
+}

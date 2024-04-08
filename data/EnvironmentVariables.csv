@@ -1,0 +1,9 @@
+Environment Variable Name,Description
+IF_APPLICATION_NAME,Application name provided in the InstallForge Builder Environment when creating a setup package (see the Product Name field)
+IF_APPLICATION_VERSION,Application version provided in the InstallForge Builder Environment when creating a setup package (see the Product Version field)
+IF_COMPANY_NAME,Company name provided in the InstallForge Builder Environment when creating a setup package (see the Company Name field)
+IF_INSTALLPATH,Installation path selected by the user on the Select Application Folder dialog of the setup
+IF_LANGUAGE,Language selected by the user at startup of the setup. The content of this constant corresponds to the name of the language file without extension as it was defined when building the setup package. When setup package is monolingual the content will be empty.
+IF_ORGANIZATION,Organization entered by the user on the setup serial validation dialog
+IF_SERIAL,Serial entered by the user on the setup serial validation dialog
+IF_USERNAME,User name entered by the user on the setup serial validation dialog

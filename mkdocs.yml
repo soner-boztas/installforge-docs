@@ -1,0 +1,135 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: InstallForge Documentation
+repo_url: https://github.com/soner-boztas/installforge-docs
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: en
+  font:
+    text: Open Sans
+  logo: assets/iflogo.png
+  favicon: assets/favicon.ico
+  palette:
+    # Palette toggle for light mode.
+    - scheme: installforge-light
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode.
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.tabs
+    - navigation.tracking
+    - search
+    - search.highlight
+    - search.share
+    - navigation.footer
+    # Activate copy button for code blocks.
+    - content.code.copy
+    # Render more advanced tooltips
+    - content.tooltips
+
+copyright: Copyright &copy; 2007-[Year] solicus. Last build on [Date]. Revision&colon; [CommitHash]. Branch&colon; [Branch].
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - getting-started/index.md
+    - Introduction: getting-started/introduction.md
+    - Features: getting-started/features.md
+    - System Prerequisites: getting-started/system-prerequisites.md
+    - Installation: getting-started/installation.md
+    - Quick Start Guide: getting-started/quick-start-guide.md
+  - How-To's:
+      - how-tos/index.md
+      - Using Environment Variables: how-tos/using-environment-variables.md
+      - Using Custom Variables: how-tos/using-custom-variables.md
+      - Using Predefined Constants: how-tos/using-predefined-constants.md
+      - Using Custom Commands: how-tos/using-custom-commands.md
+      - Creating Your Own Language File: how-tos/creating-your-own-language-file.md
+      - Installing New Language Files: how-tos/installing-new-language-files.md
+      - Using a Custom Display Icon in Windows Programs and Features: how-tos/using-custom-display-icon-in-windows-programs-and-features.md
+      - Using a Custom Display Icon in Windows Apps and Features: how-tos/using-custom-display-icon-in-windows-apps-and-features.md
+  - FAQ:
+    - faq/index.md
+  - Release Notes:
+    - release-notes/index.md
+    - How to upgrade: upgrade.md
+  - Contributing:
+    - contributing/index.md
+    - Asking a Question: contributing/asking-a-question.md
+    - Reporting a Bug: contributing/reporting-a-bug.md
+    - Requesting a New Feature: contributing/requesting-a-new-feature.md
+    - Providing a New Language File : contributing/providing-a-new-language-file.md
+    - Making a Donation: contributing/making-a-donation.md
+  - License:
+    - license/index.md
+
+plugins:
+  - search
+  - table-reader
+  # Add support for displaying the date of last update and creation of a document at the bottom of each page.
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: soner-boztas/installforge-docs
+      branch: main
+
+markdown_extensions:
+  - toc:
+      # Add an anchor link containing a symbol at the end of each headline.
+      permalink: true
+  - abbr
+  - admonition
+  # Collapsible admonitions.
+  - pymdownx.details
+  - def_list
+  - footnotes
+  - tables
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  # Extensions for code blocks (syntax highlighting. inline code blocks, ...).
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  # Extensions for emoji icons.
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # Extensions for content tabs.
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets:
+      auto_append:
+        - glossary.md
+extra:
+  # Disable the "Made with Material for MkDocs" notice.
+  generator: false
+
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/solicusoftware
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/solicus
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/86189712/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCUN8s7e_rPTEs7FVG3naw2w
+
+extra_css:
+  - stylesheets/extra.css

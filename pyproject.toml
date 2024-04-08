@@ -1,0 +1,15 @@
+[tool.poetry]
+# Use Poetry only for dependency management, not for developing a Python package.
+package-mode = false
+authors = ["Soner Boztas <soner.boztas@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.12"
+mkdocs-material = "~9.5.2"
+mkdocs-table-reader-plugin = "~2.0.3"
+mkdocs-git-revision-date-localized-plugin = "^1.2.4"
+mkdocs-git-committers-plugin-2 = "^2.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

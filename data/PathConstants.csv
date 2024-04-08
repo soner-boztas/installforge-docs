@@ -1,0 +1,42 @@
+﻿Constant Name,Folder Type,Folder Description,Typical Path
+"&lt;AdminTools&gt;",Per user,Folder for administrative tools,C:\\Users\\username\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools
+"&lt;ApplicationData&gt;",Per user (roaming),Folder containing application-specific data,C:\\Users\\username\\AppData\\Roaming
+"&lt;CDBurning&gt;",Per user,Folder for files waiting to be written to an optical disc storage,C:\\Users\\username\\AppData\\Local\\Microsoft\\Windows\\Burn\\Burn
+"&lt;CommonAdminTools&gt;",Per machine,Folder containing administrative tools for all users,C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools
+"&lt;CommonApplicationData&gt;",Per machine,Contains application-specific data,C:\\ProgramData
+"&lt;CommonDesktop&gt;",Per machine,Folder that contains desktop items which appear on the desktop of all users,C:\\Users\\Public\\Desktop
+"&lt;CommonDocuments&gt;",Per machine,Documents folder for all users,C:\\Users\\Public\\Documents
+"&lt;CommonMusic&gt;",Per machine,Music folder for all users,C:\\Users\\Public\\Music
+"&lt;CommonPictures&gt;",Per machine,Pictures folder for all users,C:\\Users\\Public\\Pictures
+"&lt;CommonProgramFiles&gt;",Per machine,N/A,On a 64-bit Windows version: C:\\Program Files (x86)\\Common Files. On a 32-bit Windows version: C:\\Program Files\\Common Files
+"&lt;CommonProgramFilesX86&gt;",Per machine,N/A,On a 64-bit Windows version: C:\\Program Files (x86)\\Common Files. On a 32-bit Windows version: C:\\Program Files\\Common Files
+"&lt;CommonPrograms&gt;",Per machine,Program groups folder for all users,C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs
+"&lt;CommonStartMenu&gt;",Per machine,Start menu folder for all users,C:\\ProgramData\\Microsoft\\Windows\\Start Menu
+"&lt;CommonStartup&gt;",Per machine,Start menu folder for all users,C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp
+"&lt;CommonVideos&gt;",Per machine,Videos folder for all users,C:\\Users\\Public\\Videos
+"&lt;Cookies&gt;",Per user,Folder for internet cookies,C:\\Users\\username\\AppData\\Local\\Microsoft\\Windows\\INetCookies
+"&lt;Desktop&gt;",Per user,Folder that represents the Windows user desktop,C:\\Users\\username\\Desktop
+"&lt;Favorites&gt;",Per user,Contains favorite items of the user,C:\\Users\\username\\Favorites
+"&lt;Fonts&gt;",Per machine,Contains font files,C:\\Windows\\Fonts
+"&lt;History&gt;",Per user,Contains Internet history items,C:\\Users\\username\\AppData\\Local\\Microsoft\\Windows\\History
+"&lt;InstallPath&gt;",Per machine or per user,Installation path selected by the user on the Select Application Folder dialog of the setup,-
+"&lt;InternetCache&gt;",Per user,Contains temporary Internet files,C:\\Users\\username\\AppData\\Local\\Microsoft\\Windows\\INetCache
+"&lt;LocalApplicationData&gt;",Per user (local),Contains application-specific data,C:\\Users\\username\\AppData\\Local
+"&lt;MyDocuments&gt;",Per user,Documents folder of the user,C:\\Users\\username\\Documents
+"&lt;MyMusic&gt;",Per user,Repository for music files,C:\\Users\\username\\Music
+"&lt;MyPictures&gt;",Per user,Repository for image files,C:\\Users\\username\\Pictures
+"&lt;MyVideos&gt;",Per user,Videos folder of the user,C:\\Users\\username\\Videos
+"&lt;ProgramFiles&gt;",Per machine,Program files folder for 32-bit applications,On a 64-bit Windows version: C:\\Program Files (x86). On a 32-bit Windows version: C:\\Program Files
+"&lt;ProgramFilesX64&gt;",Per machine,Program files folder for 64-bit applications.  Only applicable on 64-bit Windows systems.,C:\\Program Files
+"&lt;ProgramFilesX86&gt;",Per machine,"Program files folder for 32-bit applications. Equivalent to &lt;ProgramFiles&gt;.",On a 64-bit Windows version: C:\\Program Files (x86). On a 32-bit Windows version: C:\\Program Files
+"&lt;Programs&gt;",Per user (roaming),Contains program groups,C:\\Users\\username\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs
+"&lt;Recent&gt;",Per user (roaming),Contains shortcuts to the most recently used documents of the user,C:\\Users\\username\\AppData\\Roaming\\Microsoft\\Windows\\Recent
+"&lt;Resources&gt;",Per machine;Resources folder for all windows,C:\\Windows\\Resources
+"&lt;SendTo&gt;",Per user (roaming),Contains send to menu items of the user,C:\\Users\\username\\AppData\\Roaming\\Microsoft\\Windows\\SendTo
+"&lt;StartMenu&gt;",Per user (roaming),Contains start menu  items,C:\\Users\\username\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu
+"&lt;Startup&gt;",Per user (roaming),Contains startups items of the user. Programs in this folder are started whenever the user logs on.,C:\\Users\\username\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup
+"&lt;System&gt;",Per machine,Windows system folder. On a 64-bit Windows version this folder contains 64-bit system files.,C:\\Windows\\System32
+"&lt;SystemX86&gt;",Per machine,Windows system folder for 32-bit system files,On a 64-bit Windows version: C:\\Windows\\SysWOW64. On a 32-bit Windows version: C:\\Windows\\System32 
+"&lt;Templates&gt;",Per user,Common repository for document templates,C:\\Users\\username\\AppData\\Roaming\\Microsoft\\Windows\\Templates
+"&lt;UserProfile&gt;",Per user,Profile folder of the user,C:\\Users\\username
+"&lt;Windows&gt;",Per machine,Windows folder,C:\\Windows
