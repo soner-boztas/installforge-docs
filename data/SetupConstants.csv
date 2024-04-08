@@ -1,0 +1,9 @@
+﻿Setup Constant Name,Description
+"&lt;AppName&gt;",Application name provided in the InstallForge Builder Environment when creating a setup package (see the Product Name field ).
+"&lt;AppVersion&gt;",Application version provided in the InstallForge Builder Environment when creating a setup package (see the Product Version field)
+"&lt;Company&gt;",Company name provided in the InstallForge Builder Environment when creating a setup package (see the Company Name field)
+"&lt;Website&gt;",Website URL provided when creating a setup package (see the Website URL field in the InstallForge Builder Environment)
+"&lt;Language&gt;",Language selected by the user at startup of the setup. The content of this constant corresponds to the name of the language file without extension as it was defined when building the setup package. When setup package is monolingual the content will be empty.
+"&lt;UserName&gt;",User name entered by the user on the setup serial validation dialog.
+"&lt;Organization&gt;",Organization entered by the user on the setup serial validation dialog.
+"&lt;Serial&gt;",Serial entered by the user on the setup serial validation dialog.
