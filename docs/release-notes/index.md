@@ -4,34 +4,75 @@ hide:
 ---
 # Release Notes
 
+## Version 1.5.0 (2025-10-25)
+
+!!! danger "Important"
+
+    As of version `1.5.0`, the bundled version of Visual Update Express is no longer allowed to be used in a commercial 
+    context. If you want to use Visual Update in a commercial context, please purchase a Pro license.
+    More information can be found at [https://docs.visualupdate.net/license/](https://docs.visualupdate.net/license/).
+
+* **Improvements for setup packages created with InstallForge:**
+
+    * `Enhancement` Increased extraction performance during installation
+    * `Enhancement` Added new setup icon and header image (`super-modern`)
+    * `Enhancement` Added Korean language file (provided by user wincmd)
+    * `Enhancement` Added Finish language file (provided by user jussihi)
+    * `Enhancement` Added Norwegian language file (provided by user [JustablockCode](https://github.com/JustablockCode)) [[PR#2]](https://github.com/soner-boztas/installforge-translations/pull/2)
+    * `Enhancement` Added Vietnamese language file (provided by user [lphucdo](https://github.com/lphucdo)) [[PR#5]](https://github.com/soner-boztas/installforge-translations/pull/5)
+    * `Enhancement` Added Slovak language file (provided by user [L-Catman](https://github.com/L-Catman) from LUnetStudio) [[PR#3]](https://github.com/soner-boztas/installforge-translations/pull/3)
+    * `Enhancement` Added Bahasa Malaysia language file (provided by user [fbakhda](https://github.com/fbakhda) from :simple-intel: Intel) [[PR#4]](https://github.com/soner-boztas/installforge-translations/pull/4)
+    * `Enhancement` Added traditional Chinese language file (provided by user [machichima](https://github.com/machichima) from unionai) [[PR#7]](https://github.com/soner-boztas/installforge-translations/pull/7)
+    * `Enhancement` Added Português Portugal file (provided by user [sacrus](https://github.com/sacrus)) [[PR#8]](https://github.com/soner-boztas/installforge-translations/pull/8)
+    * `Fix` Simplified Chinese file (provided by user [DiscreteTom](https://github.com/DiscreteTom)) [[PR#9]](https://github.com/soner-boztas/installforge-translations/pull/9)
+
+* **Improvements for the InstallForge builder environment:**
+    
+    * `Feature` Added new CLI builder for building setup packages within a Continuous Deployment (CD)
+      pipeline
+    * `Feature` Added support for automatically code-signing setup executables (setup, uninstaller and updater) 
+      during the build process
+    * `Enhancement` InstallForge project files are now stored in XML format. The old format is still supported for 
+      backward compatibility (see `File` --> `Import` in the main menu).
+    * `Enhancement` Increased build performance
+    * `Enhancement` Changed default URIs for Visual Update to `https` protocol
+    * `Enhancement` Updated executable resource library (`reseditx86.dll`) (built with latest VC++ compiler) for 
+      enhanced stability and security
+    * `Fix` Possible Invalid Memory Access (IMA) when building setup packages
+    * `Fix` Fixed old URIs in the help menu
+ 
+* **Improvements for Visual Update:**
+    * `Enhancement` Updated Visual Update to version `1.3.0` (see [https://docs.visualupdate.net/release-notes/](https://docs.visualupdate.net/release-notes/) for 
+      details)
+
 ## Version 1.4.4 (2023-07-18)
 
 * **Improvements for the InstallForge builder environment:**
-    * `Enhancement` Order of custom commands can be altered [[IF-21](https://solicus.atlassian.net/browse/IF-21)]
-    * `Enhancement` InstallForge project files can be opened via drag-and-drop [[IF-23](https://solicus.atlassian.net/browse/IF-23)]
-    * `Enhancement` Added tooltips for various input widgets in order to increase user experience [[IF-22](https://solicus.atlassian.net/browse/IF-22)]
-    * `Enhancement` Git commit hash is displayed on the `About InstallForge` dialog window [[IF-20](https://solicus.atlassian.net/browse/IF-20)]
+    * `Enhancement` Order of custom commands can be altered
+    * `Enhancement` InstallForge project files can be opened via drag-and-drop
+    * `Enhancement` Added tooltips for various input widgets in order to increase user experience
+    * `Enhancement` Git commit hash is displayed on the `About InstallForge` dialog window
 
 * **Other:**
-    * `Enhancement` InstallForge binary application files are code-signed [[IF-19](https://solicus.atlassian.net/browse/IF-19)]
+    * `Enhancement` InstallForge binary application files are code-signed
 
 ## Version 1.4.3 (2023-06-16)
 * **Improvements for setup packages created with InstallForge:**
 
-     * `Feature` Official support for Windows 11 [[IF-7](https://solicus.atlassian.net/browse/IF-7)]
-     * `Feature` Official support for Windows Server 2022 [[IF-17](https://solicus.atlassian.net/browse/IF-17)]
-     * `Feature` Official support for Windows Server 2019 [[IF-16](https://solicus.atlassian.net/browse/IF-16)]
-     * `Enhancement` Added Hebrew language file [[IF-12](https://solicus.atlassian.net/browse/IF-12)]
-     * `Enhancement` Added Indonesian language file [[IF-9](https://solicus.atlassian.net/browse/IF-9)]
-     * `Enhancement` Added Japanese language file [[IF-9](https://solicus.atlassian.net/browse/IF-9)]
-     * `Enhancement` Added Swedish language file [[IF-10](https://solicus.atlassian.net/browse/IF-10)]
-     * `Enhancement` Updated Ukraine language file [[IF-11](https://solicus.atlassian.net/browse/IF-11)]
-     * `Fix` Fixed bug preventing path constant `<ProgramFilesX64>` from being resolved [[IF-15](https://solicus.atlassian.net/browse/IF-15)]
-     * `Fix` Fixed bug the splash screen from being displayed when configured [[IF-8](https://solicus.atlassian.net/browse/IF-8)]
+     * `Feature` Official support for Windows 11
+     * `Feature` Official support for Windows Server 2022
+     * `Feature` Official support for Windows Server 2019
+     * `Enhancement` Added Hebrew language file
+     * `Enhancement` Added Indonesian language file
+     * `Enhancement` Added Japanese language file
+     * `Enhancement` Added Swedish language file
+     * `Enhancement` Updated Ukraine language file 
+     * `Fix` Fixed bug preventing path constant `<ProgramFilesX64>` from being resolved
+     * `Fix` Fixed bug the splash screen from being displayed when configured
   
 * **Improvements for the InstallForge builder environment:**
     * `Fix` Fixed bug leading to possible `Could not update all setup version information!` log message issued by 
-      the IBE [[IF-14](https://solicus.atlassian.net/browse/IF-14)]
+      the IBE
 
 ## Version 1.4.2 (2020-06-17)
 * **Improvements for setup packages created with InstallForge:**
