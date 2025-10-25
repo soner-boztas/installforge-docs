@@ -21,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -40,7 +42,7 @@ jobs:
         sed -i "s/\[CommitHash\]/$(printf %.7s $GITHUB_SHA)/" mkdocs.yml
         sed -i "s/\[Branch\]/$GITHUB_REF_NAME/" mkdocs.yml
     - name: Build docs
-      run: poetry run mkdocs build
+      run: poetry run poe docs build
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
