@@ -12,13 +12,13 @@ Are you using InstallForge for the first time? Then check out the [Getting Start
 <div class="grid cards" markdown>
 
 
--   :rocket:{ .lg .middle } Getting Started
+-   :simple-rocket:{ .lg .middle } Getting Started
 
     ---
 
     If you are new to InstallForge, this section is the right place for you to get started.
 
-    [:octicons-arrow-right-24: Getting started](getting-started/)
+    [:octicons-arrow-right-24: Getting started](getting-started/index.md)
 
 -   :material-file-document:{ .lg .middle } How To's
 
@@ -26,7 +26,7 @@ Are you using InstallForge for the first time? Then check out the [Getting Start
 
     Find how-to guides for InstallForge that follow a target-oriented approach in their content.
 
-    [:octicons-arrow-right-24: How To's](how-tos/)
+    [:octicons-arrow-right-24: How To's](how-tos/index.md)
 
 -   :material-frequently-asked-questions:{ .lg .middle } FAQ
 
@@ -34,7 +34,7 @@ Are you using InstallForge for the first time? Then check out the [Getting Start
 
     Find answers to frequently asked questions from the community.
 
-    [:octicons-arrow-right-24: FAQ](faq/)
+    [:octicons-arrow-right-24: FAQ](faq/index.md)
 
 -   :octicons-versions-24:{ .lg .middle } Release Notes
 
@@ -42,7 +42,7 @@ Are you using InstallForge for the first time? Then check out the [Getting Start
 
     Check out what has changed in InstallForge up to the latest release.
 
-    [:octicons-arrow-right-24: Release Notes](release-notes/)
+    [:octicons-arrow-right-24: Release Notes](release-notes/index.md)
 
 -   :octicons-law-24:{ .lg .middle } License
 
@@ -50,5 +50,5 @@ Are you using InstallForge for the first time? Then check out the [Getting Start
 
     InstallForge is licensed under a proprietary, freeware EULA. Check out the full details here. 
 
-    [:octicons-arrow-right-24: License](license/)
+    [:octicons-arrow-right-24: License](license/index.md)
 </div>
