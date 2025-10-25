@@ -21,7 +21,7 @@ being operated.
 
     | Category           | Prerequisite                                                               |
     |--------------------|----------------------------------------------------------------------------|
-    | Operating System   | :simple-windowsxp: Windows 7 or later                                      |
+    | Operating System   | :material-microsoft-windows: Windows 7 or later                            |
     | CPU                | :simple-intel: :simple-amd: Any Intel or AMD CPU based on x86 architecture |
     | RAM                | 1 GB                                                                       |
     | Disk Space         | 10 MB                                                                      |
@@ -31,7 +31,7 @@ being operated.
     
     | Category           | Prerequisites                                                              |
     |--------------------|----------------------------------------------------------------------------|
-    | Operating System   | :simple-windowsxp: Windows 7 or later                                      |
+    | Operating System   | :material-microsoft-windows: Windows 7 or later                            |
     | CPU                | :simple-intel: :simple-amd: Any Intel or AMD CPU based on x86 architecture |
     | RAM                | 128 MB                                                                     |
     | Disk Space         | N/A (depends on the size of target files packaged)                         |
