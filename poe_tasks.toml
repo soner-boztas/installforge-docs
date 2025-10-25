@@ -1,0 +1,44 @@
+################################################################################
+#
+#      Author: Soner Boztas
+#
+# Description: Config file for defining Poe tasks.
+#
+################################################################################
+[tool.poe]
+verbosity = -1
+executor.type = "poetry"
+shell_interpreter = "bash"
+
+# Global environment variables
+[tool.poe.env]
+DOCS_BUILD_FOLDER_NAME = "docs_build"
+
+############################################################
+# Public Tasks
+############################################################
+[tool.poe.tasks.clean]
+help = "Delete all generated artifacts (e.g. generated during a build process)."
+script = """
+    poethepoet.scripts:rm(
+        ".cache",
+        environ.get("DOCS_BUILD_FOLDER_NAME"),
+        verbosity=environ.get("POE_VERBOSITY")
+    )
+"""
+
+[tool.poe.tasks.docs]
+help = "Task group for performing different operations on the docs."
+control.expr = "task"
+args = [
+    { name = "task", positional = true, required = true, help = "Either 'view' or 'build'. 'view' spawns a local development web server suitable for working on the docs. 'build' builds the docs for distribution." }
+]
+
+[[tool.poe.tasks.docs.switch]]
+case = "view"
+shell = "mkdocs serve -o"
+
+[[tool.poe.tasks.docs.switch]]
+case = "build"
+env = { IS_BUILD = "true" }
+shell = "mkdocs build --clean --no-strict"

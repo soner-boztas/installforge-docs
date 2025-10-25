@@ -1,6 +1,3 @@
----
-status: new
----
 # Using Custom Commands
 
 ## Introduction

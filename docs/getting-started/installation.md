@@ -43,7 +43,7 @@ executable file `ifbuilderenvx86.exe`.
 An additional possibility is to use the shell (_Windows Command Prompt_ or _PowerShell_). Below, the commands
 are listed for _PowerShell_[^2]:
 
-``` shell
+```
 $ cd 'C:\Program Files (x86)\solicus\InstallForge\bin\'
 $ .\ifbuilderenvx86.exe
 ```
