@@ -1,8 +1,16 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Frequently Asked Questions
 
 ??? question "Are there any costs associated with using InstallForge?"
 
-    No! InstallForge is free to use.
+    No! InstallForge is free to use. An exception applies only if you want to use Visual Update for commercial purposes.
+    In this case, you must acquire a valid Visual Update Pro license. You can find more information about the Visual
+    Update use terms in the [Visual Update License](https://docs.visualupdate.net/license).
 
 ??? question "Do setup packages created with InstallForge depend on any runtime environment (such as .NET)?"
 
