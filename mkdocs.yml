@@ -36,6 +36,7 @@ nav:
       - Installing New Language Files: how-tos/installing-new-language-files.md
       - Using a Custom Display Icon in Windows Programs and Features: how-tos/using-custom-display-icon-in-windows-programs-and-features.md
       - Using a Custom Display Icon in Windows Apps and Features: how-tos/using-custom-display-icon-in-windows-apps-and-features.md
+      - Building Setup Packages with the InstallForge CLI Builder: how-tos/building-setups-with-cli-builder.md
   - FAQ:
     - faq/index.md
   - Release Notes:
