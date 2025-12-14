@@ -4,6 +4,22 @@ hide:
 ---
 # Release Notes
 
+## Version 1.6.0 (2025-12-14)
+
+* **Improvements for setup packages created with InstallForge:**
+
+    * `Feature` Support for Windows Server 2025
+    * `Feature` Support for `<Temp>` path constant
+    * `Enhancement` Mitigated risk of false positive detections by different anti-malware applications
+
+* **Improvements for the InstallForge builder environment:**
+    
+    * `Enhancement` Full CLI builder support in the InstallForge IBE GUI
+    * `Enhancement` Added context menus for the Files, `Variables`, `Commands`, `License`, `Serial Validation`, `Registry` & `Shortcuts` sections
+    * `Enhancement` Added notice regarding SignTool CLI arguments in order to avoid confusion
+    * `Fix` Explorer bar (left pane) items are now displayed correctly with different DPI scaling settings
+    * `Fix` Wrong error messages in the build log have been fixed
+
 ## Version 1.5.0 (2025-10-25)
 
 !!! danger "Important"
