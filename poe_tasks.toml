@@ -36,7 +36,7 @@ args = [
 
 [[tool.poe.tasks.docs.switch]]
 case = "view"
-shell = "mkdocs serve -o"
+shell = "mkdocs serve -o --livereload"
 
 [[tool.poe.tasks.docs.switch]]
 case = "build"
