@@ -4,6 +4,23 @@ hide:
 ---
 # Release Notes
 
+## Version 1.6.1 (2025-12-23)
+
+* **Improvements for setup packages created with InstallForge:**
+
+    * `Enhancement` Header image (which is displayed on the top right of setup wizard dialogs) now scales correctly on high-DPI displays
+
+* **Improvements for the InstallForge builder environment:**
+
+    * `Feature` Restored new header image available for setup packages (`super-modern` --> `images\Header_3.png`)
+    * `Fix` UI glitches have been fixed [[#29]](https://github.com/soner-boztas/installforge/issues/29)
+    * `Fix` Importing legacy InstallForge project files is working correctly again [[#28]](https://github.com/soner-boztas/installforge/issues/28)
+    * `Other` Added toolbar button linking to the InstallForge GitHub page
+  
+* **Improvements for Visual Update:**
+    * `Enhancement` Updated Visual Update to version `1.3.1` (see [https://docs.visualupdate.net/release-notes/](https://docs.visualupdate.net/release-notes/) for 
+      details)
+
 ## Version 1.6.0 (2025-12-14)
 
 * **Improvements for setup packages created with InstallForge:**
